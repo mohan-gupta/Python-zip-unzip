@@ -5,9 +5,9 @@ from zipfile import *
 #--------CREATING ZIP FILE---------
 #initialising Zipfile constructor
 # arguments: file Path, mode(w:write), ZIP_DEFLATED(since we want to compress the file)
-z = ZipFile("file path","w",ZIP_DEFLATED) #for compression ZIP_DEFLATED
+z = ZipFile("file path","w",ZIP_DEFLATED)
 
-#Add the file which you want to zip by passing its path
+#Add the file, which you want to zip by passing its path
 z.write("file path")
 
 #closing the zipfile
